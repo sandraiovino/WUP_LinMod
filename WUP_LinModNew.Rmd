@@ -37,18 +37,33 @@ data <- read.csv(file="https://onlinestatbook.com/case_studies_rvls/physical_str
 
 ### descriptive results -- Scatterplot
 
-
 ```{r}
 plot(SIMS~ARM,data=data)
 ```
-  This graph shows that 
+
+   
   
-#### graphical results 
 
 ### Numerical results
+```{r}
+cor(SIMS~ARM,data=data)
+```
 
+If it was positive 1 then it would fall under a positive line. Since the arm is increasing the other one decreases. 
 
 ### Inferential  (Build model.1)
+
+
+```{r}
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
+
+```{r}
+plot(SIMS~ARM,data=data)
+abline(model.1, col='red')
+
+```
 
 #### Predict at target point
 
