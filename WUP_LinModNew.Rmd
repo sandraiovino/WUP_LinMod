@@ -12,6 +12,8 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Introduction 
+
 
 Read about the data from the website where it is staged.  Then form three regression models; Model1 is SIMS~ARM, Model2 is SIMS~GRIP, and Model3 is SIMS~ARM+GRIP. For each model find a 95% prediction interval of SIMS given a value of 94  for GRIP and 88 for ARM. Compare Model1 with Model3 using anova. Write it up in a markdown document, push the project up to your github account and submit it back to canvas as link. 
 
@@ -33,7 +35,15 @@ data <- read.csv(file="https://onlinestatbook.com/case_studies_rvls/physical_str
 
 ## Model 1 SIM~ARMS
 
-### scatterplot
+### descriptive results -- Scatterplot
+
+
+```{r}
+plot(SIMS~ARM,data=data)
+```
+  This graph shows that 
+  
+#### graphical results 
 
 ### Numerical results
 
