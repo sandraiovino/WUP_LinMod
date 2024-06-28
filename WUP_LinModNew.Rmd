@@ -41,7 +41,7 @@ data <- read.csv(file="https://onlinestatbook.com/case_studies_rvls/physical_str
 plot(SIMS~ARM,data=data)
 ```
 
-   
+This plot shows that as arm strength increases the sims score goes up
   
 
 ### Numerical results
