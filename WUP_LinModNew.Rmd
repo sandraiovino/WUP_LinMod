@@ -42,7 +42,6 @@ plot(SIMS~ARM,data=data)
 ```
 
 This plot shows that as arm strength increases the sims score goes up
-  
 
 ### Numerical results
 ```{r}
