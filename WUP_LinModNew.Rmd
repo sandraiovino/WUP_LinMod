@@ -202,7 +202,6 @@ summary.lm(model.1)
 ```
 Model SIM~ARM+GRIP is better than the model sims~grip because the rss is lower (188) and the p-value is 0.000000014
 
-
 ## Informally compare Model.1 with model.2
 
 ```{r}
