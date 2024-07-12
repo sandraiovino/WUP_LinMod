@@ -49,7 +49,7 @@ cor(SIMS~ARM,data=data)
 ```
 The correlation shows that .6860 is a positive, meaning that the higher strength would make the sims higher. Because if correlation were to be negative it would most likely decrease. 
 
-### Inferential  (Build model.1)
+### Inferential  (Build model.1) 
 ```{r}
 model.1 <- lm(SIMS~ARM,data=data)
 summary.lm(model.1)
@@ -60,7 +60,6 @@ summary.lm(model.1)
 plot(SIMS~ARM,data=data)
 abline(model.1, col='red')
 ```
-
 
 The P-values for the intercept and slope are 0.00000000000000022, So we reject the null because it is smaller than 0.05  
 
