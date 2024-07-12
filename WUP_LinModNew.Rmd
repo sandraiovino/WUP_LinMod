@@ -31,7 +31,7 @@ data <- read.csv(file="https://onlinestatbook.com/case_studies_rvls/physical_str
 
 ```
 
-## Model 1 SIM~ARMS
+## Model 1 SIM~ARMS 
 
 ### Descriptive results -- Scatterplot  
 
