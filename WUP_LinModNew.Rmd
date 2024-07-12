@@ -169,7 +169,6 @@ p-value 0.0000000000000002 from the model parameters: Intercept, coefficient of 
 Predict interval of SIMS given a value of 94 for grip and 88 for arm
 
 
-
 ```{r}
 newdata = data.frame(GRIP=94, ARM=88)
 predSIMS = predict(model.3, newdata, interval='pred')
